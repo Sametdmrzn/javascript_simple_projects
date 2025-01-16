@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Güvenli Şifre || Made by Samet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <h1>Rastgele Şifre Üretici</h1>
+        <p>İstediğiniz uzunlukta güvenli bir şifre oluşturun!</p>
+    
+        <div class="form-group">
+          <label for="length"><h3>Şifre Uzunluğu:</h3></label>
+          <input type="number" id="length" placeholder="Şifre uzunluğunu giriniz (örn: 12)" />
+        </div>
+    
+        <button id="generate">Şifre Oluştur</button>
+        <div class="result">
+          <p>Oluşturulan Şifre:</p>
+          <input type="text" id="password" readonly />
+          <button id="copy">Kopyala</button>
+        </div>
+      </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
